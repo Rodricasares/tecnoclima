@@ -1,0 +1,93 @@
+{
+  "services": "Services",
+  "projects": "Projects",
+  "contact": "Contact",
+
+  "heroTitle": "KNX Smart Home Solutions for Luxury Villas",
+  "heroText": "We design and integrate KNX smart home systems for luxury villas in Marbella, Sotogrande, and the Costa del Sol. Total control, comfort, and energy efficiency from a single app.",
+
+  "whyTitle": "Why Choose Us",
+  "why1": "Specialists in high-end KNX systems",
+  "why2": "Based in Marbella & Sotogrande",
+  "why3": "Fast response and reliable support",
+  "why4": "Proven experience in luxury villas",
+
+  "ourServices": "Smart Home & Automation Services",
+
+  "service1Title": "KNX Integration",
+  "service1Text": "Complete KNX systems integrating lighting, climate, blinds, and security into one seamless smart home experience.",
+
+  "service2Title": "Smart Home Repair",
+  "service2Text": "Diagnosis and repair of existing automation systems, restoring full functionality and control.",
+
+  "service3Title": "Home Automation Upgrades",
+  "service3Text": "Upgrade existing properties with smart home technology to improve comfort, efficiency, and property value.",
+
+  "service4Title": "System Maintenance",
+  "service4Text": "Ongoing maintenance and monitoring of KNX installations to ensure reliable performance at all times.",
+
+  "lightingTitle": "Lighting Control",
+  "lightingText": "Custom lighting scenes, dimming, and automation designed to enhance comfort and ambiance throughout your home.",
+
+  "climateTitle": "Climate Control",
+  "climateText": "Advanced climate management systems that maximize comfort while reducing energy consumption.",
+
+  "shuttersTitle": "Shutters & Blinds",
+  "shuttersText": "Automated shading systems integrated with lighting and climate to improve comfort and efficiency.",
+
+  "securityTitle": "Security Systems",
+  "securityText": "Smart security solutions with remote monitoring, alarms, and sensors for complete peace of mind.",
+
+  "automationTitle": "KNX Smart Home",
+  "automationText": "Fully integrated KNX systems designed, installed, and programmed for high-end residential projects.",
+
+  "audioTitle": "Audio Systems",
+  "audioText": "Multiroom audio and home cinema systems delivering high-quality sound across the entire property.",
+
+  "tvTitle": "TV Installation",
+  "tvText": "Professional TV installation with clean finishes, wall mounting, and concealed cable management.",
+
+  "intercomTitle": "IP Video Intercom",
+  "intercomText": "Modern video intercom systems with remote access and full integration into your smart home system.",
+
+  "logotext": "Technologies we work with",
+
+  "projectsTitle": "Featured Projects",
+
+  "project1Title": "KNX Luxury Villa",
+  "project1Text": "Full integration of lighting, climate, and blinds in a luxury villa in Marbella, providing total control and comfort.",
+
+  "project2Title": "Smart Lighting Design",
+  "project2Text": "Custom lighting scenes tailored to the client’s lifestyle, enhancing both ambiance and usability.",
+
+  "project3Title": "Home Cinema",
+  "project3Text": "High-end audiovisual installation delivering a premium cinema experience at home.",
+
+  "project4Title": "Network & Rack Installation",
+  "project4Text": "Professional rack setup and structured cabling ensuring reliable connectivity across the entire property.",
+
+  "project5Title": "Electrical Panels & Maintenance",
+  "project5Text": "Electrical panel upgrades and KNX system maintenance to ensure long-term reliability and performance.",
+
+  "project6Title": "Video Intercom",
+  "project6Text": "Smart IP intercom system with remote access fully integrated into the home.",
+
+  "footerDescription": "KNX smart home integration and automation systems for luxury villas in Marbella and the Costa del Sol",
+
+  "footerNavigation": "Navigation",
+  "footerContact": "Contact",
+
+  "areasTitle": "Areas We Serve",
+  "areasDescription": "We provide KNX smart home integration services across Marbella, Estepona, Sotogrande, and the Costa del Sol.",
+
+  "contactTitle": "Contact Us",
+  "contactDescription": "Tell us about your project and we’ll help you create a smarter, more comfortable, and energy-efficient home.",
+
+  "contactName": "Your name",
+  "contactEmail": "Your email",
+  "contactMessage": "Your message",
+  "contactSend": "Send message",
+
+  "contactPhone": "Phone",
+  "contactLocation": "Location"
+}

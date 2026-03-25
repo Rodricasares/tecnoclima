@@ -1,0 +1,67 @@
+.footer {
+  background: #020617; /* Fondo oscuro consistente con el cuerpo */
+  /* Borde superior sutilmente anaranjado para conectar con la marca */
+  border-top: 1px solid rgba(242, 101, 34, 0.1); 
+  padding-top: 60px;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 40px;
+  padding: 0 20px 60px;
+}
+
+.footer h3 {
+  margin-bottom: 15px;
+  color: #F26522; /* El nombre de la empresa en Naranja destaca sobre el fondo */
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.footer h4 {
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.footer p {
+  color: #94a3b8;
+  line-height: 1.6;
+  font-size: 15px;
+}
+
+.footer-links a {
+  display: block;
+  margin-bottom: 12px;
+  color: #94a3b8;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  font-size: 15px;
+}
+
+/* Hover en Naranja Tecnoclima: indica navegación inteligente */
+.footer-links a:hover {
+  color: #F26522;
+  transform: translateX(5px); /* Pequeño desplazamiento lateral */
+}
+
+.footer-bottom {
+  text-align: center;
+  padding: 25px;
+  background: rgba(0, 0, 0, 0.2); /* Un tono más oscuro para el copyright */
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  color: #64748b;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+}
+
+/* Detalle extra para el copyright */
+.footer-bottom b {
+  color: #cbd5f5;
+  font-weight: 500;
+}

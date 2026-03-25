@@ -1,0 +1,138 @@
+.services {
+  padding: 120px 20px;
+  background: #020617; /* Mantenemos el fondo oscuro para que el LED resalte */
+}
+
+.services-container {
+  max-width: 1300px;
+  margin: auto;
+}
+
+.services-title {
+  text-align: center;
+  margin-bottom: 80px;
+  color: #ffffff;
+}
+
+/* Línea decorativa con los colores de Tecnoclima */
+.services-title::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 2px;
+  margin: 20px auto 0;
+  background: linear-gradient(
+    90deg,
+    #F26522, /* Naranja */
+    #ffffff   /* Blanco */
+  );
+}
+
+/* GRID */
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 40px;
+}
+
+/* CARD */
+.service-card {
+  position: relative;
+  padding: 35px;
+  border-radius: 12px;
+  background: #020617;
+  transition: transform 0.25s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-6px);
+}
+
+/* LED BORDER - ADAPTADO A NARANJA TECNOCLIMA */
+.service-card::before {
+  content: "";
+  position: absolute;
+  inset: -2px;
+  border-radius: 14px;
+  /* Gradiente que mezcla el Naranja con un Blanco-Azulado para efecto luz */
+  background: linear-gradient(
+    90deg,
+    #F26522,
+    #ffffff,
+    #002147, 
+    #F26522
+  );
+  background-size: 300%;
+  animation: ledBorder 6s linear infinite;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: -2;
+}
+
+.service-card:hover::before {
+  opacity: 1;
+  /* Añadimos un resplandor extra (glow) */
+  filter: blur(1px); 
+}
+
+/* INNER BACKGROUND */
+.service-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 12px;
+  background: #020617;
+  z-index: -1;
+}
+
+/* ICON */
+.service-icon {
+  width: 42px;
+  height: 42px;
+  margin-bottom: 18px;
+  color: #94a3b8;
+  transition: all 0.3s ease;
+}
+
+.service-icon svg {
+  width: 100%;
+  height: 100%;
+}
+
+/* ICON HOVER - AHORA EN NARANJA */
+.service-card:hover .service-icon {
+  color: #F26522;
+  filter: drop-shadow(0 0 8px rgba(242, 101, 34, 0.8));
+}
+
+/* TEXT */
+.service-card h3 {
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.service-card p {
+  color: #94a3b8;
+  line-height: 1.6;
+}
+
+/* ANIMATION */
+@keyframes ledBorder {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 300%;
+  }
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .services {
+    padding: 90px 20px;
+  }
+  .services-title {
+    margin-bottom: 50px;
+  }
+}

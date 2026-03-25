@@ -1,0 +1,93 @@
+{
+  "services": "Servicios",
+  "projects": "Proyectos",
+  "contact": "Contacto",
+
+  "heroTitle": "Expertos en Climatización e Integración KNX",
+  "heroText": "Elevamos el confort de su vivienda en Marbella y Sotogrande. Especialistas en instalaciones eléctricas, aire acondicionado y control inteligente mediante el estándar KNX.",
+
+  "whyTitle": "Confianza Tecnoclima",
+  "why1": "Instaladores Autorizados con años de experiencia",
+  "why2": "Servicio Técnico propio en toda la Costa del Sol",
+  "why3": "Expertos en eficiencia energética y ahorro real",
+  "why4": "Soluciones integrales: Electricidad, Clima y Domótica",
+
+  "ourServices": "Especialidades Técnicas",
+
+  "service1Title": "Climatización Inteligente",
+  "service1Text": "Instalación y control de sistemas de aire acondicionado y suelo radiante, optimizados mediante zonificación inteligente para un confort total.",
+
+  "service2Title": "Instalaciones Eléctricas",
+  "service2Text": "Montaje de cuadros eléctricos, iluminación y redes de baja tensión bajo normativa, garantizando seguridad y eficiencia en villas premium.",
+
+  "service3Title": "Integración KNX",
+  "service3Text": "Automatización de viviendas para centralizar persianas, luces y clima en un sistema robusto, fiable y fácil de usar.",
+
+  "service4Title": "Mantenimiento Técnico",
+  "service4Text": "Planes preventivos y correctivos para instalaciones de climatización y sistemas inteligentes, asegurando su durabilidad.",
+
+  "lightingTitle": "Iluminación de Diseño",
+  "lightingText": "Proyectos de iluminación técnica y decorativa controlados mediante escenas para realzar la arquitectura de su hogar.",
+
+  "climateTitle": "Gestión Térmica",
+  "climateText": "Control preciso de la temperatura por estancias, integrando aerotermia y sistemas de expansión directa.",
+
+  "shuttersTitle": "Cerramientos Motorizados",
+  "shuttersText": "Control centralizado de persianas y toldos para mejorar el aislamiento térmico y la seguridad de la villa.",
+
+  "securityTitle": "Seguridad e Interfonía",
+  "securityText": "Instalación de videoporteros IP y sistemas de control de acceso integrados en el ecosistema digital de la casa.",
+
+  "automationTitle": "Smart Home",
+  "automationText": "Tecnología al servicio del usuario: hogares conectados que aprenden de sus hábitos para ahorrar energía.",
+
+  "audioTitle": "Sonido e Imagen",
+  "audioText": "Sistemas multiroom y cine en casa con altavoces de alta fidelidad integrados estéticamente en techos y paredes.",
+
+  "tvTitle": "Multimedia y Redes",
+  "tvText": "Infraestructura WiFi de alta velocidad y conectividad garantizada en toda la propiedad, sin zonas muertas.",
+
+  "intercomTitle": "Control de Accesos",
+  "intercomText": "Gestión de entradas y salidas de la vivienda desde cualquier lugar del mundo a través de su smartphone.",
+
+  "logotext": "Partners Tecnológicos Oficiales",
+
+  "projectsTitle": "Portfolio de Instalaciones",
+
+  "project1Title": "Villa de Lujo en Sierra Blanca",
+  "project1Text": "Proyecto integral de climatización por zonas y control KNX en una de las zonas más exclusivas de Marbella.",
+
+  "project2Title": "Reforma Técnica en Sotogrande",
+  "project2Text": "Actualización de sistema eléctrico y centralización de iluminación inteligente en primera línea de golf.",
+
+  "project3Title": "Eficiencia en Nueva Andalucía",
+  "project3Text": "Sustitución de sistemas de climatización antiguos por aerotermia de alta eficiencia controlada por domótica.",
+
+  "project4Title": "Infraestructura IT y Racks",
+  "project4Text": "Centralización de comunicaciones y sistemas de seguridad en rack profesional para gran villa.",
+
+  "project5Title": "Cuadros de Control KNX",
+  "project5Text": "Diseño y montaje de cuadros eléctricos inteligentes para el control total de consumos y potencia.",
+
+  "project6Title": "Integración de Videoportería",
+  "project6Text": "Sistema de acceso inteligente con desvío de llamada a móvil y apertura remota para personal de servicio.",
+
+  "footerDescription": "Tecnoclima: Su partner de confianza en Marbella para instalaciones eléctricas, climatización y domótica avanzada.",
+
+  "footerNavigation": "Mapa del sitio",
+  "footerContact": "Datos de Contacto",
+
+  "areasTitle": "Cobertura en la Costa del Sol",
+  "areasDescription": "Atendemos proyectos en Marbella, Estepona, Sotogrande, Benahavís y alrededores.",
+
+  "contactTitle": "Presupuesto y Asesoramiento",
+  "contactDescription": "Póngase en contacto con nuestro equipo técnico para estudiar su proyecto de climatización o domótica.",
+
+  "contactName": "Nombre / Empresa",
+  "contactEmail": "Correo electrónico",
+  "contactMessage": "Detalles del proyecto",
+  "contactSend": "Solicitar Información",
+
+  "contactPhone": "Teléfono Técnico",
+  "contactLocation": "Sede Central"
+}

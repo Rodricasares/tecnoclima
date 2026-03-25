@@ -1,0 +1,161 @@
+.header {
+  width: 100%;
+  position: sticky;
+  top: 0;
+  /* CAMBIO A BLANCO: Para que el logo de Tecnoclima resalte */
+  background: #FFFFFF; 
+  /* Sombra sutil para dar profundidad sobre el fondo negro del cuerpo */
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid #e2e8f0;
+  z-index: 1000;
+}
+
+.header-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 10px 20px; /* Un poco más compacto para elegancia */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* LOGO IMAGEN */
+.logo-img-tecnoclima {
+  height: 48px; 
+  width: auto;
+  display: block;
+  transition: transform 0.2s;
+}
+
+.logo-img-tecnoclima:hover {
+  transform: scale(1.03);
+}
+
+/* NAV DESKTOP */
+.nav {
+  display: flex;
+  gap: 30px;
+}
+
+.nav a {
+  text-decoration: none;
+  /* CAMBIO A AZUL OSCURO: Para legibilidad sobre blanco */
+  color: #002147; 
+  font-weight: 600;
+  font-size: 15px;
+  transition: color 0.2s;
+}
+
+/* Hover en naranja Tecnoclima */
+.nav a:hover {
+  color: #F26522;
+}
+
+/* LANGUAGE SWITCH */
+.language-switch {
+  display: flex;
+  gap: 8px;
+}
+
+.language-switch button {
+  background: transparent;
+  /* Bordes más visibles sobre blanco */
+  border: 1px solid #cbd5e1;
+  color: #475569;
+  padding: 6px 12px;
+  font-size: 13px;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+/* Hover botón en Azul Marino suave */
+.language-switch button:hover {
+  background: #f1f5f9;
+  border-color: #002147;
+  color: #002147;
+}
+
+/* Activo en Naranja Tecnoclima */
+.language-switch button.active {
+  background: #F26522;
+  border-color: #F26522;
+  color: white;
+}
+
+.mobile-lang {
+  display: none;
+}
+
+/* BURGER - Ahora en azul oscuro para que se vea */
+.burger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.burger span {
+  width: 26px;
+  height: 2px;
+  background: #002147; /* Azul marino en lugar de blanco */
+  transition: 0.3s;
+}
+
+/* Cambio a naranja cuando está activo */
+.burger.active span {
+  background: #F26522;
+}
+
+.burger.active span:nth-child(1) {
+  transform: rotate(45deg) translateY(6.5px);
+}
+
+.burger.active span:nth-child(2) {
+  opacity: 0;
+}
+
+.burger.active span:nth-child(3) {
+  transform: rotate(-45deg) translateY(-6.5px);
+}
+
+/* MOBILE */
+@media (max-width: 900px) {
+  .nav {
+    position: fixed;
+    top: 68px; /* Ajustado a la nueva altura del header */
+    left: 0;
+    width: 100%;
+    /* El menú desplegable lo mantenemos oscuro para impacto visual */
+    background: #020617;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    padding: 40px 0;
+    transform: translateY(-150%);
+    transition: transform 0.35s ease;
+    border-bottom: 2px solid #F26522; 
+  }
+
+  /* Los enlaces dentro del menú móvil deben ser blancos de nuevo */
+  .nav-open a {
+    color: #ffffff;
+  }
+
+  .nav-open {
+    transform: translateY(0);
+  }
+
+  .burger {
+    display: flex;
+  }
+
+  .desktop-lang {
+    display: none;
+  }
+
+  .mobile-lang {
+    display: flex;
+  }
+}

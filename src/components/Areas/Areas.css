@@ -1,0 +1,68 @@
+.areas {
+  padding: 120px 20px;
+  background: #020617; /* Fondo oscuro consistente */
+}
+
+.areas-container {
+  max-width: 1100px;
+  margin: auto;
+  text-align: center;
+}
+
+.areas-title {
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+/* Línea decorativa adaptada a Naranja Tecnoclima */
+.areas-title::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 2px;
+  margin: 20px auto 0;
+  background: linear-gradient(
+    90deg,
+    #F26522, /* Naranja principal */
+    #ffffff   /* Blanco para dar brillo */
+  );
+}
+
+.areas-description {
+  max-width: 600px;
+  margin: auto;
+  color: #94a3b8;
+  margin-bottom: 60px;
+}
+
+/* GRID */
+.areas-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+}
+
+/* ITEM */
+.area-item {
+  padding: 18px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  transition: all 0.25s ease;
+  color: #cbd5f5; /* Color de texto por defecto */
+}
+
+/* HOVER EFECTO TECNOCLIMA */
+.area-item:hover {
+  /* Cambio de color de borde a naranja */
+  border-color: #F26522; 
+  
+  /* Sombra sutil naranja (glow) para mantener el estilo LED */
+  box-shadow: 0 0 15px rgba(242, 101, 34, 0.2);
+  
+  transform: translateY(-3px);
+  
+  /* El texto se ilumina un poco más */
+  color: #ffffff;
+  background: rgba(242, 101, 34, 0.05); /* Un tinte naranja muy suave al fondo */
+}

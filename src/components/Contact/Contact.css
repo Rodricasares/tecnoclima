@@ -1,0 +1,156 @@
+.contact {
+  padding: 120px 20px;
+  background: #020617;
+}
+
+.contact-container {
+  max-width: 1100px;
+  margin: auto;
+  text-align: center;
+}
+
+.contact-title {
+  text-align: center;
+  margin-bottom: 80px;
+  color: #ffffff;
+}
+
+/* Gradiente Naranja Tecnoclima */
+.contact-title::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 2px;
+  margin: 20px auto 0;
+  background: linear-gradient(90deg, #F26522, #ffffff);
+}
+
+.contact-description {
+  max-width: 600px;
+  margin: 20px auto 60px;
+  color: #94a3b8;
+}
+
+/* GRID */
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 50px;
+  align-items: start;
+}
+
+/* FORM */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 14px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.03);
+  color: white;
+  transition: border-color 0.3s;
+}
+
+/* Foco del input en Naranja */
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: #F26522;
+  background: rgba(242, 101, 34, 0.05);
+}
+
+/* BUTTON LED - VERSIÓN TECNOCLIMA */
+.contact-button {
+  position: relative;
+  padding: 16px 28px;
+  border: none;
+  border-radius: 8px;
+  background: #020617;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  z-index: 1;
+  margin-top: 10px;
+}
+
+.contact-button::before {
+  content: "";
+  position: absolute;
+  inset: -2px;
+  border-radius: 10px;
+  /* Gradiente LED Naranja/Blanco/Azul Marino */
+  background: linear-gradient(
+    90deg,
+    #F26522,
+    #ffffff,
+    #002147,
+    #F26522
+  );
+  background-size: 300%;
+  animation: ledButton 6s linear infinite;
+  z-index: -1;
+}
+
+.contact-button:hover {
+  transform: translateY(-3px);
+  filter: brightness(1.1);
+}
+
+@keyframes ledButton {
+  0% { background-position: 0%; }
+  100% { background-position: 300%; }
+}
+
+/* CONTACT INFO */
+.contact-info {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 20px;
+}
+
+.contact-item strong {
+  display: block;
+  margin-bottom: 5px;
+  color: #F26522; /* Títulos de info en Naranja */
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.contact-item p {
+  color: #ffffff;
+  font-size: 18px;
+}
+
+/* WHATSAPP PREMIUM */
+.whatsapp-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+  padding: 16px 24px;
+  border-radius: 8px;
+  background: #25D366;
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(37, 211, 102, 0.3);
+}
+
+.whatsapp-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(37, 211, 102, 0.5);
+}

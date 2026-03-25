@@ -1,0 +1,78 @@
+.tech {
+  padding: 80px 20px;
+  text-align: center;
+  background: #020617; /* Fondo oscuro */
+}
+
+.tech-title {
+  margin-bottom: 50px;
+  color: #ffffff;
+}
+
+/* Subrayado Naranja Tecnoclima */
+.tech-title::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 2px;
+  margin: 20px auto 0;
+  background: linear-gradient(
+    90deg,
+    #F26522, 
+    #ffffff
+  );
+}
+
+.tech-slider {
+  overflow: hidden;
+  width: 100%;
+  /* El degradado de los lados hace que los logos aparezcan y desaparezcan suavemente */
+  mask-image: linear-gradient(
+    to right,
+    transparent,
+    black 10%,
+    black 90%,
+    transparent
+  );
+  -webkit-mask-image: linear-gradient(
+    to right,
+    transparent,
+    black 10%,
+    black 90%,
+    transparent
+  );
+}
+
+.tech-track {
+  display: flex;
+  gap: 100px; /* Un poco más de espacio para que respiren */
+  width: max-content;
+  align-items: center; /* Alineación vertical perfecta de los logos */
+  animation: techScroll 30s linear infinite;
+}
+
+.tech-track img {
+  height: 60px; /* Tamaño profesional */
+  width: auto;
+  opacity: 0.5;
+  filter: grayscale(100%) brightness(200%); /* Logos en blanco/gris para elegancia */
+  transition: all 0.4s ease;
+}
+
+/* EFECTO HOVER: El logo recupera su color o se ilumina en naranja */
+.tech-track img:hover {
+  opacity: 1;
+  filter: grayscale(0%) brightness(100%); /* Recupera su color original */
+  transform: scale(1.1);
+  /* Un sutil brillo naranja detrás del logo de la marca instalada */
+  filter: drop-shadow(0 0 10px rgba(242, 101, 34, 0.4));
+}
+
+@keyframes techScroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}

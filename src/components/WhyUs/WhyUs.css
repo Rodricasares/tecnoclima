@@ -1,0 +1,74 @@
+.whyus {
+  padding: 100px 20px;
+  background: #020617; /* Mantenemos el fondo oscuro */
+}
+
+.whyus-container {
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+}
+
+.why-grid {
+  margin-top: 40px;
+  display: grid;
+  gap: 20px;
+}
+
+/* Título con el gradiente corporativo Tecnoclima */
+.whyTitle {
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.whyTitle::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 2px;
+  margin: 20px auto 0;
+  /* Cambio a Naranja Tecnoclima y Blanco */
+  background: linear-gradient(
+    90deg,
+    #F26522, 
+    #ffffff
+  );
+}
+
+.why-item {
+  font-size: 18px;
+  color: #cbd5f5;
+  background: rgba(255, 255, 255, 0.03);
+  padding: 20px; /* Un poco más de aire para que respire el texto */
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  transition: all 0.3s ease;
+  text-align: left; /* Las listas de beneficios suelen leerse mejor alineadas a la izquierda */
+  position: relative;
+  overflow: hidden;
+}
+
+/* Efecto al pasar el ratón: El ítem cobra vida */
+.why-item:hover {
+  background: rgba(242, 101, 34, 0.05); /* Tinte naranja muy sutil */
+  border-color: rgba(242, 101, 34, 0.3);
+  transform: translateX(5px); /* Desplazamiento lateral suave en lugar de hacia arriba */
+  color: #ffffff;
+}
+
+/* Detalle visual: Una pequeña barra naranja a la izquierda en hover */
+.why-item::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 4px;
+  background: #F26522;
+  transform: scaleY(0);
+  transition: transform 0.3s ease;
+}
+
+.why-item:hover::before {
+  transform: scaleY(1);
+}
