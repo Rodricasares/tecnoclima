@@ -17,7 +17,7 @@ function Projects() {
 
           {/* 1 */}
           <div className="project-card">
-            <img src="/images/project1.webp" alt="project" />
+            <img src="/images/project10.webp" alt="project" />
             <div className="project-info">
               <h3>{t("project1Title")}</h3>
               <p>{t("project1Text")}</p>

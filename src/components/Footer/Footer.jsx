@@ -47,9 +47,9 @@ function Footer() {
 
           <p>Marbella · Sotogrande</p>
 
-          <p>info@tecchnoclima.com</p>
+          <p>info@tecnoclima.com</p>
 
-          <p>+34 600 00</p>
+          <p>+34 600 000 000</p>
 
         </div>
 
