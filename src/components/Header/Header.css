@@ -19,6 +19,8 @@
   justify-content: space-between;
 }
 
+
+
 /* LOGO IMAGEN */
 .logo-img-tecnoclima {
   height: 48px; 
@@ -77,6 +79,8 @@
   color: #002147;
 }
 
+
+
 /* Activo en Naranja Tecnoclima */
 .language-switch button.active {
   background: #F26522;
@@ -120,6 +124,8 @@
   transform: rotate(-45deg) translateY(-6.5px);
 }
 
+
+
 /* MOBILE */
 @media (max-width: 900px) {
   .nav {
@@ -137,6 +143,7 @@
     transition: transform 0.35s ease;
     border-bottom: 2px solid #F26522; 
   }
+
 
   /* Los enlaces dentro del menú móvil deben ser blancos de nuevo */
   .nav-open a {

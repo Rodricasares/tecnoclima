@@ -149,3 +149,71 @@
   }
 
 }
+
+/* AGREGADO:Animación texto borros */
+
+.hero-title {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeUpReveal 1s ease forwards;
+  position: relative;
+  display: inline-block; /* Para que el subrayado ocupe solo el texto */
+}
+
+.hero-title::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 0; /* Empieza sin ancho */
+  height: 3px;
+  background: #F26522; /* Tu Naranja */
+  animation: drawLine 0.8s ease forwards;
+  animation-delay: 0.8s; /* Espera a que el texto aparezca */
+}
+
+@keyframes fadeUpReveal {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes drawLine {
+  to {
+    width: 100%;
+  }
+}
+/* AGREGADO: animación LInea */
+
+.hero-title {
+  animation: focusBlur 1.5s cubic-bezier(0.23, 1, 0.32, 1) forwards;
+  color: #ffffff;
+}
+
+/* Opcional: Resaltar una palabra clave en naranja con brillo */
+.hero-title span.highlight {
+  color: #F26522;
+  text-shadow: 0 0 15px rgba(242, 101, 34, 0.5);
+  animation: pulseGlow 2s infinite alternate;
+  animation-delay: 1.5s; /* Empieza después del enfoque */
+}
+
+@keyframes focusBlur {
+  0% {
+    filter: blur(12px);
+    opacity: 0;
+    transform: scale(1.1);
+  }
+  100% {
+    filter: blur(0px);
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes pulseGlow {
+  to {
+    text-shadow: 0 0 25px rgba(242, 101, 34, 0.8);
+  }
+}

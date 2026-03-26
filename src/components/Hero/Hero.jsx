@@ -23,9 +23,9 @@ function Hero() {
 
       <div className="hero-content">
 
-        <h1>{t("heroTitle")}</h1>
+        <h1 className="hero-title">{t("heroTitle")}</h1>
 
-        <p>{t("heroText")}</p>
+        <p className="hero-text">{t("heroText")}</p>
 
       </div>
 
